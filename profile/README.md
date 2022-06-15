@@ -132,7 +132,7 @@ script (riconoscibili dal suffisso *_embeddedjre*) che lanciano l’editor utili
 
 ### Primo Avvio dell'IDE
 
-8. A questo punto, potete **lanciare Netbeans** usando i launcher
+10. A questo punto, potete **lanciare Netbeans** usando i launcher
  presenti nella cartella *bin*. Se lavorate su Windows, usate
  l'eseguibile "netbeans64.exe" se avete scaricato una JDK a 64bit,
  altrimenti usate l'eseguibile "netbeans.exe". Su sistemi Unix e Mac,
@@ -141,7 +141,7 @@ script (riconoscibili dal suffisso *_embeddedjre*) che lanciano l’editor utili
  presente sulla vostra macchina (magari di una versione precedente)
  rispondete no.
 
-9. Selezionate la voce di menu **Tools \> Java Platforms** e verificate
+11. Selezionate la voce di menu **Tools \> Java Platforms** e verificate
  che la JDK che avete installato sia presente nella lista e marcata
  come "Default" (il relativo "Platform folder" dovrà essere quello
  specificato nella chiave *netbeans_jdkhome*, e quindi situato
@@ -149,7 +149,7 @@ script (riconoscibili dal suffisso *_embeddedjre*) che lanciano l’editor utili
 
 ### Configurazione di Tomcat
 
-10. A questo punto potete procedere a **connettere Netbeans a Tomcat**.
+12. A questo punto potete procedere a **connettere Netbeans a Tomcat**.
 
    a. Selezionate la voce di menu **Tool \> Servers** e di seguito il bottone "*Add Server...*".
    
@@ -163,7 +163,7 @@ script (riconoscibili dal suffisso *_embeddedjre*) che lanciano l’editor utili
 
 ### Test della Configurazione
 
-11. Per **testare la nuova configurazione**,
+13. Per **testare la nuova configurazione**,
 
    a. Provate prima di tutto ad **avviare Tomcat** cliccando 
 	col tasto destro sulla relativa sotto-voce del nodo "*Servers*" presente nella linguetta/box "*Services*" dell'IDE e selezionando "*Start*". Se vi vengono chieste le credenziali per la "*Tomcat Manager Application*", inserite quelle definite al punto 8.d. Se tutto va bene, vedrete i log del server mostrati dall'IDE elencare una serie di informazioni che termineranno con una riga del tipo "*Server startup in \[...\] milliseconds*". Questo vuol dire che il server si è avviato con successo.
